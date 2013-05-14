@@ -1,5 +1,7 @@
 从网上拷的代码，自己做了些修改的,实际上不是我写的;
 例子:
+
+<pre>
 function before_memcache_set($args,$result,$process_time){
     global $_VALS;
     $_VALS[]=$args;
@@ -19,3 +21,6 @@ function log_stat(){
 fc_add_post("Memcache::set","before_memcache_set");
 fc_add_post("Memcached::set","before_memcache_set");
 register_shutdown_function("log_stat");
+
+</pre>
+
