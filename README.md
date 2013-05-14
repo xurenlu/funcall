@@ -24,3 +24,10 @@ register_shutdown_function("log_stat");
 
 </pre>
 
+运行时输出:
+
+<pre>
+
+memcache_set: 0.025305986404419s 8 times
+</pre>
+
